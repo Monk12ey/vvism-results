@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVISM Results Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>VVISM Examination Results</h1>
+        <p>Enter your Hall Ticket Number to check your results:</p>
+        <input type="text" id="hallTicket" placeholder="Enter Hall Ticket No." />
+        <br>
+        <button onclick="showPopup()">Get Results</button>
+    </div>
+
+    <script>
+        function showPopup() {
+            alert("Results Awaited! Please check again later.");
+        }
+    </script>
+
+</body>
+</html>
